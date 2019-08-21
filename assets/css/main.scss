@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Variable definition
+$font_default: 'Roboto', sans-serif;
+$text_color: #515151;
+$green: #4FB03F;
+$grey: #999999;
+$blue: #20A6FB;
+
+body {
+  font-family: $font_default;
+  color: $text_color;
+  margin: 0;
+}
+
+.clearfix {
+  clear: both;
+  height: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
+@import 'siteheader';
